@@ -14,6 +14,9 @@ import org.springframework.data.couchbase.core.WriteResultChecking;
 import org.springframework.data.couchbase.core.query.Consistency;
 import org.springframework.data.couchbase.repository.support.IndexManager;
 
+import javax.enterprise.inject.spi.Bean;
+import javax.validation.Configuration;
+
 @Configuration
 public class ReactiveIntegrationTestApplicationConfig extends AbstractReactiveCouchbaseConfiguration {
 

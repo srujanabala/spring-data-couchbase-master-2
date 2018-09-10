@@ -14,6 +14,9 @@ import org.springframework.data.couchbase.core.CouchbaseTemplate;
 import org.springframework.data.couchbase.core.WriteResultChecking;
 import org.springframework.data.couchbase.core.query.Consistency;
 import org.springframework.data.couchbase.repository.support.IndexManager;
+import org.testng.annotations.Configuration;
+
+import javax.enterprise.inject.spi.Bean;
 
 @Configuration
 public class IntegrationTestApplicationConfig extends AbstractCouchbaseConfiguration {

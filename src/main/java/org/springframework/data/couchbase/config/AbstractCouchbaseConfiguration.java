@@ -86,7 +86,7 @@ public abstract class AbstractCouchbaseConfiguration
      *
      * @return a customized environment, defaults to a {@link DefaultCouchbaseEnvironment}.
      */
-    protected CouchbaseEnvironment getEnvironment() {
+    protected com.couchbase.client.java.env.CouchbaseEnvironment getEnvironment() {
         return DefaultCouchbaseEnvironment.create();
     }
 
